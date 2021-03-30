@@ -6,6 +6,13 @@ const common = css`
   padding: 0;
 `;
 
+const normal = css`
+  ${common}
+
+  font-size: 1.222rem;
+  line-height: 1.5rem;
+`;
+
 const huge = css`
   ${common}
 
@@ -14,5 +21,6 @@ const huge = css`
 `;
 
 export default {
+  normal,
   huge,
 }
