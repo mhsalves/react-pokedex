@@ -1,0 +1,24 @@
+{
+  "name": "react-pokedex",
+  "version": "0.0.1",
+  "description": "This repo creates an pokedex using https://pokeapi.co/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhsalves/react-pokedex.git"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "pokeapi"
+  ],
+  "author": "Matheus Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mhsalves/react-pokedex/issues"
+  },
+  "homepage": "https://github.com/mhsalves/react-pokedex#readme"
+}
