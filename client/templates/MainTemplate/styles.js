@@ -4,7 +4,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  background-color: ${({ theme: { colors } }) => colors.white.clear};
+  background-color: ${({ theme: { colors } }) => colors.white.contrast};
 `;
 
 const Content = styled.div`
