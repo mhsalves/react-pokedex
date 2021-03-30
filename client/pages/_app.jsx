@@ -10,8 +10,8 @@ function MyPokedexApp(props) {
 
   return (
     <React.StrictMode>
+      <GlobalCSS />
       <ThemeProvider theme={theme}>
-        <GlobalCSS />
         <Component {...pageProps} />
       </ThemeProvider>
     </React.StrictMode>

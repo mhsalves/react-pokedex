@@ -8,7 +8,7 @@ export default class extends Document {
   static async getInitialProps(ctx) {
     const { renderPage } = ctx;
     const sheet = new ServerStyleSheet();
-    const page = renderPage((App) => (props) => sheet.collectStyles(<App {...props} />));
+    const page = renderPage({ enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />)});
     const styleTags = sheet.getStyleElement();
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps, ...page, styleTags };
