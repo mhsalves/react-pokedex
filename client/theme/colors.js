@@ -4,6 +4,7 @@ const red = {
 
 const white = {
   base: '#FFFFFF',
+  clear: '#FFFFF0',
 };
 
 export default {
